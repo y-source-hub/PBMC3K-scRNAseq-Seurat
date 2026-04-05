@@ -139,28 +139,29 @@
 source("pbmc3k_analysis.R")
 ``` 
 
-环境
+## 环境
 
-工具	版本
-R	4.5.1
-Seurat	5.4.0
-clusterProfiler	4.15.0
-org.Hs.eg.db	3.21.0
+| 工具 | 版本 |
+|------|------|
+| R | 4.5.1 |
+| Seurat | 5.4.0 |
+| clusterProfiler | 4.15.0 |
+| org.Hs.eg.db | 3.21.0 |
 
-结论
+## 结论
 
 本项目成功完成了 PBMC3K 单细胞数据的完整分析：
 
-1. 细胞类型识别：通过 UMAP 降维和聚类，成功识别出 7 种主要的免疫细胞类型
+1. **细胞类型识别**：通过 UMAP 降维和聚类，成功识别出 7 种主要的免疫细胞类型
 
-2. 标记基因验证：通过热图、小提琴图、特征图等多种可视化方式，验证了细胞类型注释的准确性
+2. **标记基因验证**：通过热图、小提琴图、特征图等多种可视化方式，验证了细胞类型注释的准确性
 
-3. 差异表达分析：比较两种单核细胞亚型，识别出 CD14 和 FCGR3A 等关键差异基因
+3. **差异表达分析**：比较两种单核细胞亚型，识别出 CD14 和 FCGR3A 等关键差异基因
 
-4. 功能富集分析：比较 B 细胞和 CD8+ T 细胞，富集出 MHC II 抗原呈递、B/T 细胞受体信号通路、细胞杀伤等核心功能通路
+4. **功能富集分析**：比较 B 细胞和 CD8+ T 细胞，富集出 MHC II 抗原呈递、B/T 细胞受体信号通路、细胞杀伤等核心功能通路
 
-参考文献
+## 参考文献
 
-1. Hao, Y., et al. (2024). Dictionary learning for integrative, multimodal and scalable single-cell analysis. Nature Biotechnology.
+1. Hao, Y., et al. (2024). Dictionary learning for integrative, multimodal and scalable single-cell analysis. *Nature Biotechnology*.
 
 2. 10X Genomics. PBMC3K Dataset. Data available at: https://cf.10xgenomics.com/samples/cell/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz
